@@ -17,9 +17,9 @@ void main()
     printf("\nEnter the marks 3:");
     scanf("%d",&m3); 
     tot=m1+m2+m3;
-    printf("\n Total is:",tot);
+    printf("\n Total is:%d",tot);
     per=tot/3.0;
-    printf("\nPercentage is:",per);
+    printf("\nPercentage is:%f",per);
     
     fprintf(fp,"%d\n%s\n%d\n%d\n%d\n%d\n%f\n", rno, name, m1, m2, m3, tot, per);
 
