@@ -16,14 +16,10 @@ void main() {
 
         while (number != 0) {
             int digit=number%10;
-            sum+=digit;;
-            
-            number /= 10;
-            count++;
-            
+            sum+=digit;
+            number=number/10;
+            count++;   
         }
-    
-
     printf("Number of digits: %d\n", count);
     printf("Sum of digits:%d",sum);
     
