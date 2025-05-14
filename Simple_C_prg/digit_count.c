@@ -6,14 +6,6 @@ void main() {
 
     printf("Enter a number: ");
     scanf("%d", &number);
-
-   
-   
-       
-       // if (number < 0) {
-          //  number = -number;
-        //}
-
         while (number != 0) {
             int digit=number%10;
             sum+=digit;

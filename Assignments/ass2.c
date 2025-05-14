@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main()
+void main()
 {
     int num;
     printf("Enter a number:");
@@ -11,5 +11,5 @@ int main()
     {
         printf("%d x %d=%d\n",num,i,num*i);
     }
-    return 0;
+    
 } 
