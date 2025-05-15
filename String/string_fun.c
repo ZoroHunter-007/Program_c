@@ -40,12 +40,12 @@ void main()
    //lowercase string
    printf("\n%s",strlwr(c1));
 
-   char *c5=strchr(c1,'o');
-   printf("\n%c",c5);
+   //char *c5=strchr(c1,'o');
+   //printf("\n%c",c5);
 
    //copy particular character of string
-   strncpy(c3,c1,3);
-   printf("\n%s",c3);
+   //strncpy(c3,c1,3);
+   //printf("\n%s",c3);
 
    //string occurence
    char *c6=strrchr(c1,'h');
